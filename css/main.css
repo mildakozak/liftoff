@@ -125,7 +125,7 @@ p{
   display: none;
 }
 .mobile-menu-wrapper{
-  margin-top: 30%;
+  margin-top: calc(40%);
 }
 .mobile-menu-wrapper a{
   display: block;
@@ -237,7 +237,7 @@ p{
   margin-top: 30px;
 }
 .icon-back{
-
+  margin-right: 10%;
 }
 .project-row-flexbox-container{
   display: flex;
@@ -286,11 +286,6 @@ p{
 }
 .project-crew4{
   background-image: url("../images/projects/thumbnails/freya.jpg");
-}
-#arrow-id{
-  fill:none;
-  stroke:#101010;
-  stroke-width:3px;
 }
 .help-backgroud{
   margin-top: 80px;
@@ -411,7 +406,7 @@ input[type=text]{
     position: relative;
     margin-bottom: 0px;
   }
-  .project:hover > #project-H2{
+  .project:hover > .project-H2{
     font-size: 60px;
     bottom: 35%;
     left: 10%;
@@ -521,5 +516,8 @@ input[type=text]{
   }
   .header-text{
     top: 35%;
+  }
+  .mobile-menu-wrapper{
+    margin-top: calc(45%);
   }
 }

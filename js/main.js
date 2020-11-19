@@ -2,7 +2,7 @@ var mobileMenu = document.getElementById("mobile-menu");
 var nav = document.getElementById("navbar");
 var iconBack = document.getElementById("mobile-menu-back");
 
-/*
+
 function navbarToggle() {
   mobileMenu.style.display = "block";
   iconBack.style.display = "block";
@@ -11,7 +11,7 @@ function navbarToggle() {
 function navbarToggleOff() {
   mobileMenu.style.display = "";
 }
-*/
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
