@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome | Lift Off</title>
+    <link rel="stylesheet" href="css/main.css?v=3">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav class="navigation-transparent" id="navbar">
+      <div class="nav-wrapper">
+        <a class="logo-nav" href="index.html">
+          <img src="images/icons/logo-white.png" alt="Logo">
+        </a>
+        <a href="javascript:void(0);" class="menu-icon" onclick="navbarToggle()">
+        <div class="mobile-menu-icon">
+          <img src="images/icons/menu-mobile-2.svg" alt="">
+        </div>
+        </a>
+        <div class="desktop-menu">
+          <a href="index.html" id="active">About</a>
+          <a href="">Crews</a>
+          <a href="">Fundings</a>
+          <a href="">Contact</a>
+          <a href="#get-launched" class="button button-white button-nav">GET LAUNCHED!</a>
+        </div>
+        <div class="mobile-menu icon-back" id="mobile-menu">
+          <a href="javascript:void(0);" class="icon" onclick="navbarToggleOff()">
+            <div class="mobile-menu-icon">
+              <img src="images/icons/menu-mobile-2.svg" alt="">
+            </div>
+          </a>
+            <div class="mobile-menu-wrapper">
+              <a href="index.html">About</a>
+              <a href="">Crews</a>
+              <a href="">Support</a>
+              <a href="">Contact</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <section class="header-section">
+      <header>
+          <div class="backgroud-video">
+            <video autoplay muted loop id="video">
+              <source src="video/background-video.mp4" type="video/mp4">
+            </video>
+            <div class="header-overlay"></div>
+            <div class="wrapper">
+              <div class="header-text">
+                <h1>We are helping to launch amazing cultural projects.</h1>
+                <a href="" class="button button-white">EXPLORE PROJECTS <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.66 19.12"><defs><style>.cls-1{fill:none;stroke:#ffffff;stroke-width:3px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="down_arrow" data-name="down arrow" class="cls-1" d="M9.54,9.56l.52.52-.52-.52-8.48,8.5,8.48-8.5L1.06,1.06l8.48,8.5L10.06,9Z"/></g></g></svg></a>
+              </div>
+            </div>
+          </div>
+      </header>
+    </section>
+    <section class="section-about">
+      <div class="wrapper">
+        <div class="paragraph paragraph-about">
+          <p>This is the place for wild, creative ideas to find support, and reach outer space.
+            <br> Lift Off is a project-incubator that will boost your vision and connect you to other doers!</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-numbers">
+      <div class="wrapper wrapper-numbers">
+        <div class="headline">
+          <!--h1>Lift-Off in numbers</h1-->
+        </div>
+        <div class="numbers-flexbox-container">
+          <div class="numbers">
+            <div class="counter" data-target="12">12</div>
+            <p>Successful launches</p>
+          </div>
+          <div class="numbers">
+            <div class="counter" data-target="110000">110 000</div>
+            <p>DKK funding deployed</p>
+          </div>
+          <div class="numbers">
+            <div class="counter" data-target="8">8</div>
+            <p>Projects orbiting</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects">
+      <div class="wrapper">
+        <div class="headline">
+          <h1>Incubated projects</h1>
+        </div>
+        <div class="project-row-flexbox-container">
+          <div class="project project-vong7">
+            <h2 id="project-H2">Vogn7</h2>
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project project-ccube">
+            <h2 id="project-H2">C-Cube</h2>
+            <div class="project-overlay"></div>
+          </div>
+        </div>
+        <div class="project-row-flexbox-container">
+          <div class="project project-crew3">
+            <h2 id="project-H2">Kontinuum</h2>
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project project-crew4">
+            <h2 id="project-H2">SPAA</h2>
+            <div class="project-overlay"></div>
+          </div>
+        </div>
+        <div class="button-bottom">
+          <a href="" class="button button-black">EXPLORE ALL PROJECTS <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.66 19.12"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path data-name="down arrow" class="arrow" id="arrow-id" d="M9.54,9.56l.52.52-.52-.52-8.48,8.5,8.48-8.5L1.06,1.06l8.48,8.5L10.06,9Z"/></g></g></svg></a>
+        </div>
+      </div>
+    </section>
+    <section class="section-help">
+      <div class="help-backgroud">
+        <div class="wrapper">
+          <div class="headline headline-white hedline-help-section">
+            <h1>How we help ideas to take off?</h1>
+          </div>
+          <div class="help-list">
+            <ul>
+              <li>10 000 DKK support to kickstart the project</li>
+              <li>Access to our launch station at <a href="https://www.frontloberne.dk" target="_blank">Frontløberne</a> with a free 1-year membership</li>
+              <li>Proper training for 6 months on how to fly your idea</li>
+              <li>Join a community of hands-on dreamers</li>
+              <li>Experience our bootcamps and find your backers more intently</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a class="get-launched-anchor" name="get-launched">.</a>
+    <section class="section-signup">
+      <div class="wrapper">
+        <div class="headline">
+          <h1>How to apply?</h1>
+        </div>
+        <div class="paragraph">
+          <p>We’re not accepting applications at the moment, but you can submit your email adress, and get a special notification once we do.</p>
+        </div>
+        <div class="signup-flexbox">
+          <div class="signup-input">
+            <form action="index.html">
+              <input type="text" id="email" name="email" placeholder="your@email.com">
+            </form>
+          </div>
+          <div class="signup-button">
+            <a href="" class="button button-black button-submit">SUBMIT! <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.66 19.12"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path data-name="down arrow" class="arrow" id="arrow-id" d="M9.54,9.56l.52.52-.52-.52-8.48,8.5,8.48-8.5L1.06,1.06l8.48,8.5L10.06,9Z"/></g></g></svg></a>
+          </div>
+        </div>
+        <div class="paragraph">
+          <p>Do you have any questions? Send an email to Kåre Wulff <a href="mailto:kaare@frontloberne.dk">kaare@frontloberne.dk</a>.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-footer">
+      <footer>
+        <div class="wrapper">
+          <div class="footer-grid">
+            <div class="footer-adress">
+                <h1>Where can you find us?</h1>
+                <a href="https://goo.gl/maps/2jqFuwZYY4QN9QZGA" target="_blank">
+                <p>Jægergårdsgade 154C, 1. TV <br>
+                  8000 Aarhus <br>
+                  Denmark
+                </p></a>
+            </div>
+            <div class="footer-logos-flexbox">
+              <a href="https://www.frontloberne.dk" target="_blank">
+              <div class="footer-logo frontloberne-logo">
+                <img src="images/icons/frontloberne-logo.png" alt="">
+              </div>
+              </a>
+              <a href="index.html">
+              <div class="footer-logo liftoff-logo">
+                <img src="images/icons/logo-white.png" alt="">
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
